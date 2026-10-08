@@ -1,0 +1,3 @@
+# Project summary
+
+Portable Agent Skill for choosing and applying 40 web-design references. `SKILL.md` owns the five-step workflow; `references/catalog.md` holds the source-linked catalog. `install.py` links or safely copies those two files into global skill directories on supported tools without altering MCP, CLI, IDE or project dependencies. `tests/test_install.py` checks dry-run, idempotence, verification, conflicts, managed-copy updates, and symlink-escape rejection; `.github/workflows/ci.yml` runs the tests on Linux, macOS, and Windows with Python 3.9 and 3.12. Runtime discovery and external site/account access require separate checks on each machine.
